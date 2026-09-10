@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="100%" height="100%" style="background:#070a12; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <!-- Navigation Bar -->
+  <rect x="0" y="0" width="900" height="60" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+  <rect x="25" y="15" width="30" height="30" rx="6" fill="#00ffcc" fill-opacity="0.1" stroke="#00ffcc" stroke-width="1.5"/>
+  <path d="M40 22 L47 25 L47 31 C47 36 40 39 40 39 C40 39 33 36 33 31 L33 25 Z" fill="none" stroke="#00ffcc" stroke-width="1.5"/>
+  <text x="65" y="32" fill="#ffffff" font-size="14" font-weight="700" letter-spacing="0.5">CYBERSECURITY AUTH TOOLKIT</text>
+  <text x="65" y="44" fill="#00ffcc" font-size="9" font-family="'JetBrains Mono', monospace">COLLEGE ASSIGNMENT PROTOTYPE</text>
+
+  <rect x="740" y="16" width="135" height="28" rx="14" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="754" cy="30" r="4" fill="#10b981"/>
+  <text x="765" y="34" fill="#94a3b8" font-size="11" font-family="'JetBrains Mono', monospace">API: ONLINE</text>
+
+  <!-- Login Card Background -->
+  <rect x="250" y="105" width="400" height="390" rx="12" fill="#0f172a" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="250" y1="106" x2="650" y2="106" stroke="#00ffcc" stroke-width="2"/>
+
+  <!-- Card Header -->
+  <text x="280" y="145" fill="#ffffff" font-size="18" font-weight="700">User Login</text>
+  <text x="280" y="162" fill="#94a3b8" font-size="11">Authenticate identity &amp; initiate JWT session</text>
+
+  <!-- Rate Limit Security Control Alert -->
+  <rect x="280" y="180" width="340" height="48" rx="8" fill="#ef4444" fill-opacity="0.12" stroke="#ef4444" stroke-opacity="0.3"/>
+  <text x="295" y="200" fill="#fca5a5" font-size="10.5" font-weight="700">⚠ Rate Limiting Security Control Triggered (HTTP 429)</text>
+  <text x="295" y="216" fill="#fca5a5" font-size="9.5">Too many failed login attempts. Brute-force cooldown active.</text>
+
+  <!-- Input Fields -->
+  <text x="280" y="250" fill="#94a3b8" font-size="10" font-weight="600">USERNAME OR EMAIL</text>
+  <rect x="280" y="258" width="340" height="36" rx="6" fill="#0b1120" stroke="#1e293b"/>
+  <text x="300" y="281" fill="#ffffff" font-size="12">student_analyst</text>
+
+  <text x="280" y="315" fill="#94a3b8" font-size="10" font-weight="600">PASSWORD</text>
+  <rect x="280" y="323" width="340" height="36" rx="6" fill="#0b1120" stroke="#1e293b"/>
+  <text x="300" y="347" fill="#ffffff" font-size="14" font-family="'JetBrains Mono', monospace">••••••••••••••••</text>
+
+  <!-- Submit Button -->
+  <rect x="280" y="380" width="340" height="38" rx="8" fill="#00ffcc"/>
+  <text x="390" y="404" fill="#070a12" font-size="12" font-weight="700" letter-spacing="0.5">AUTHENTICATE &amp; SIGN IN</text>
+
+  <!-- Tags -->
+  <text x="280" y="450" fill="#94a3b8" font-size="10">Active Defenses: Rate Limiting (5 req/15m) • Constant-Time Comparison</text>
+</svg>

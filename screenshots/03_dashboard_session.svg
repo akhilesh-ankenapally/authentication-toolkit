@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="100%" height="100%" style="background:#070a12; font-family:'Plus Jakarta Sans', -apple-system, sans-serif;">
+  <!-- Navigation Bar -->
+  <rect x="0" y="0" width="900" height="60" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+  <rect x="25" y="15" width="30" height="30" rx="6" fill="#00ffcc" fill-opacity="0.1" stroke="#00ffcc" stroke-width="1.5"/>
+  <path d="M40 22 L47 25 L47 31 C47 36 40 39 40 39 C40 39 33 36 33 31 L33 25 Z" fill="none" stroke="#00ffcc" stroke-width="1.5"/>
+  <text x="65" y="32" fill="#ffffff" font-size="14" font-weight="700" letter-spacing="0.5">CYBERSECURITY AUTH TOOLKIT</text>
+  <text x="65" y="44" fill="#00ffcc" font-size="9" font-family="'JetBrains Mono', monospace">COLLEGE ASSIGNMENT PROTOTYPE</text>
+
+  <rect x="620" y="16" width="120" height="28" rx="14" fill="#0f172a" stroke="#1e293b"/>
+  <circle cx="634" cy="30" r="4" fill="#10b981"/>
+  <text x="645" y="34" fill="#94a3b8" font-size="11" font-family="'JetBrains Mono', monospace">API: ONLINE</text>
+
+  <!-- Logout Button in Nav -->
+  <rect x="755" y="16" width="120" height="28" rx="6" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-opacity="0.4"/>
+  <text x="785" y="34" fill="#fca5a5" font-size="11" font-weight="600">Logout</text>
+
+  <!-- Welcome Header -->
+  <text x="50" y="100" fill="#ffffff" font-size="22" font-weight="700">Welcome, <tspan fill="#00ffcc">student_analyst</tspan></text>
+  <text x="50" y="120" fill="#94a3b8" font-size="12">Authenticated Session Active | Cybersecurity Assignment Prototype</text>
+
+  <!-- Left Card: User Profile -->
+  <rect x="50" y="145" width="380" height="230" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="75" y="180" fill="#ffffff" font-size="16" font-weight="700">User Profile</text>
+  <text x="75" y="196" fill="#94a3b8" font-size="11">Stored in MongoDB Single User Collection</text>
+
+  <rect x="75" y="215" width="330" height="32" rx="6" fill="#0b1120" stroke="#1e293b"/>
+  <text x="90" y="235" fill="#94a3b8" font-size="11">Username:</text>
+  <text x="280" y="235" fill="#ffffff" font-size="11" font-family="'JetBrains Mono', monospace">student_analyst</text>
+
+  <rect x="75" y="255" width="330" height="32" rx="6" fill="#0b1120" stroke="#1e293b"/>
+  <text x="90" y="275" fill="#94a3b8" font-size="11">Email:</text>
+  <text x="235" y="275" fill="#ffffff" font-size="11" font-family="'JetBrains Mono', monospace">analyst@univ.edu</text>
+
+  <rect x="75" y="295" width="330" height="32" rx="6" fill="#0b1120" stroke="#1e293b"/>
+  <text x="90" y="315" fill="#94a3b8" font-size="11">Password Hash:</text>
+  <text x="250" y="315" fill="#10b981" font-size="11" font-family="'JetBrains Mono', monospace">bcrypt ($2b$10$...)</text>
+
+  <!-- Right Card: Session Management -->
+  <rect x="470" y="145" width="380" height="230" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="495" y="180" fill="#ffffff" font-size="16" font-weight="700">Session Management</text>
+  <text x="495" y="196" fill="#94a3b8" font-size="11">JSON Web Token (JWT) Bearer Authentication</text>
+
+  <text x="495" y="228" fill="#94a3b8" font-size="10">ACTIVE JWT TOKEN:</text>
+  <rect x="495" y="235" width="330" height="52" rx="6" fill="#0b1120" stroke="#1e293b"/>
+  <text x="505" y="255" fill="#00ffcc" font-size="9" font-family="'JetBrains Mono', monospace">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2</text>
+  <text x="505" y="272" fill="#00ffcc" font-size="9" font-family="'JetBrains Mono', monospace">ZTVmN2I...[Header.Payload.Signature]</text>
+
+  <rect x="495" y="300" width="130" height="28" rx="6" fill="#1e293b"/>
+  <text x="515" y="318" fill="#ffffff" font-size="11">✓ Token Verified</text>
+  <text x="640" y="318" fill="#94a3b8" font-size="10">Validity: 60 Minutes</text>
+
+  <!-- Bottom Card: Implemented Controls -->
+  <rect x="50" y="395" width="800" height="120" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="75" y="425" fill="#10b981" font-size="14" font-weight="700">Implemented Security Controls</text>
+
+  <text x="75" y="450" fill="#00ffcc" font-size="11" font-weight="600">1. Password Validation:</text>
+  <text x="215" y="450" fill="#94a3b8" font-size="11">Client &amp; Server regex enforcement (8+ chars, A-Z, 0-9, symbol)</text>
+
+  <text x="75" y="475" fill="#00ffcc" font-size="11" font-weight="600">2. Salted Bcrypt Hashing:</text>
+  <text x="240" y="475" fill="#94a3b8" font-size="11">10 cost rounds against precomputed rainbow table lookups</text>
+
+  <text x="75" y="500" fill="#00ffcc" font-size="11" font-weight="600">3. Rate Limiting Control:</text>
+  <text x="235" y="500" fill="#94a3b8" font-size="11">5-attempt IP throttling window mitigating brute-force attacks</text>
+</svg>

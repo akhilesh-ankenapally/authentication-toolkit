@@ -1,0 +1,24 @@
+{
+  "name": "cybersecurity-authentication-toolkit",
+  "version": "1.0.0",
+  "description": "Cybersecurity Authentication Toolkit prototype demonstrating secure registration, login, bcrypt password hashing, JWT sessions, and rate limiting.",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "cybersecurity",
+    "authentication",
+    "bcrypt",
+    "jwt",
+    "ratelimit",
+    "mongodb"
+  ],
+  "author": "Cybersecurity Assignment Prototype",
+  "license": "ISC"
+}
